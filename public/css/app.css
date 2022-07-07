@@ -35,8 +35,8 @@ body {
   background-color: var(--first-color);
 }
 
-span,
-a {
+.nav-up span,
+.nav-up a {
   color: var(--fourth-color);
   font-size: var(--font-xs);
   text-decoration: none;
