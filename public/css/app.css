@@ -6,8 +6,15 @@
   --third-color: #303030;
   --fourth-color: #fff;
   --fifth-color: #797979;
+  --sixth-color: #464646;
+  --seventh-color: #959595;
   --container-medium: 1080px;
-  --container-large: 1440px;
+  --container-large: 1240px;
+  --font-xs: .6875rem;
+  --font-sm: .8125rem;
+  --font-md: 1.25rem;
+  --font-lg: 1.625rem;
+  --font-xl: 2.1875rem;
 }
 
 body {
@@ -22,6 +29,26 @@ body {
 .container-md {
   max-width: var(--container-medium);
   margin: auto;
+}
+
+.nav-up {
+  background-color: var(--first-color);
+}
+
+span,
+a {
+  color: var(--fourth-color);
+  font-size: var(--font-xs);
+  text-decoration: none;
+  margin-left: 40px;
+  font-weight: bold;
+}
+
+.credit {
+  padding: 6.5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 * {

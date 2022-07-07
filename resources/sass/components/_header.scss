@@ -1,0 +1,16 @@
+.nav-up {
+    background-color: var(--first-color);
+}
+span, a {
+    color: var(--fourth-color);
+    font-size: var(--font-xs);
+    text-decoration: none;
+    margin-left: 40px;
+    font-weight: bold;
+}
+.credit {
+    padding: 6.5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
