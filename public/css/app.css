@@ -6,10 +6,22 @@
   --third-color: #303030;
   --fourth-color: #fff;
   --fifth-color: #797979;
+  --container-medium: 1080px;
+  --container-large: 1440px;
 }
 
 body {
   font-family: "Roboto", sans-serif;
+}
+
+.container-lg {
+  max-width: var(--container-large);
+  margin: auto;
+}
+
+.container-md {
+  max-width: var(--container-medium);
+  margin: auto;
 }
 
 * {
