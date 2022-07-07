@@ -100,6 +100,11 @@ body {
      object-position: top;
 }
 
+.comic-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
