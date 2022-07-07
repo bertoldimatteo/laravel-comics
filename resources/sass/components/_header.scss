@@ -17,3 +17,28 @@
     justify-content: flex-end;
 }
 //  NAV-BOTTOM
+.nav-bottom {
+    padding: 15px 0;
+}
+.navbar-content {
+    a {
+        font-size: var(--font-md);
+        color: var(--sixth-color);
+        font-weight: bold;
+        margin: 0 15px;
+    }
+    li, a {
+        list-style-type: none;
+        text-decoration: none;
+    }
+}
+.navbar-content, .navbar {
+    display: flex;
+    align-items: center;
+}
+.navbar-content {
+    justify-content: space-between;
+}
+.logo-img {
+    width: 80px;
+}

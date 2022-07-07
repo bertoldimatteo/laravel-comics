@@ -7,12 +7,12 @@
             </div>
         </div>
         <div class="nav-bottom">
-            <div class="container-lg">
-                <div class="logo-img">
-                    <img src="{{asset('img/dc-logo.png')}}" alt="DC-Logo">
+            <div class="container-lg navbar-content">
+                <div>
+                    <img class="logo-img" src="{{asset('img/dc-logo.png')}}" alt="DC-Logo">
                 </div>
-                <div class="navbar">
-                    <ul>
+                <div>
+                    <ul class="navbar">
                         <li>
                             <a href="#">CHARACTERS</a>
                         </li>
@@ -45,7 +45,9 @@
                         </li>
                     </ul>
                 </div>
-                <div class="search-bar"></div>
+                <div class="search-bar">
+                    <span>Search</span>
+                </div>
             </div>
         </div>
     </nav>

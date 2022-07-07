@@ -1,6 +1,6 @@
-@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;
+@import url(https://fonts.googleapis.com/css2?family=Oswald:wght@300;
 
-300;400;500;700&display=swap);:root {
+400;500;700&display=swap);:root {
   --first-color: #0282F9;
   --second-color: #1C1C1C;
   --third-color: #303030;
@@ -12,13 +12,13 @@
   --container-large: 1240px;
   --font-xs: .6875rem;
   --font-sm: .8125rem;
-  --font-md: 1.25rem;
+  --font-md: 1rem;
   --font-lg: 1.625rem;
   --font-xl: 2.1875rem;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 .container-lg {
@@ -49,6 +49,37 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+}
+
+.nav-bottom {
+  padding: 15px 0;
+}
+
+.navbar-content a {
+  font-size: var(--font-md);
+  color: var(--sixth-color);
+  font-weight: bold;
+  margin: 0 15px;
+}
+
+.navbar-content li,
+.navbar-content a {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.navbar-content,
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-content {
+  justify-content: space-between;
+}
+
+.logo-img {
+  width: 80px;
 }
 
 * {
