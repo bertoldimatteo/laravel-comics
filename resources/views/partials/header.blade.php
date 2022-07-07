@@ -46,12 +46,12 @@
                     </ul>
                 </div>
                 <div class="search-bar">
-                    <span>Search</span>
+                    <span>Search<i class="fa-solid fa-magnifying-glass"></i></span>
                 </div>
             </div>
         </div>
     </nav>
     <div class="hero">
-        {{-- <img src="{{asset('img/jumbotron.jpg')}}" alt="Hero image"> --}}
+        <img src="{{asset('img/jumbotron.jpg')}}" alt="Hero image">
     </div>
 </header>

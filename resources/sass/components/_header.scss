@@ -21,10 +21,12 @@
     padding: 15px 0;
 }
 .navbar-content {
-    a {
-        font-size: var(--font-md);
+    a, .search-bar {
         color: var(--sixth-color);
         font-weight: bold;
+    }
+    a {
+        font-size: var(--font-md);
         margin: 0 15px;
     }
     li, a {
@@ -41,4 +43,8 @@
 }
 .logo-img {
     width: 80px;
+}
+.search-bar {
+    border-bottom: 2px solid var(--first-color);
+    padding-left: 70px
 }
