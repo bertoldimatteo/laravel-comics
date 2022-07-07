@@ -5,5 +5,10 @@
 @endsection
 
 @section('page-content')
-    Il contenuto
+    <section>
+        @foreach ($comics as $comic)
+            <img src="{{$comic['thumb']}}" alt="">
+            <p>{{$comic['title']}}</p>
+        @endforeach
+    </section>
 @endsection
