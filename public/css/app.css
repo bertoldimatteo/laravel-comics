@@ -91,6 +91,10 @@ body {
   padding-left: 70px;
 }
 
+.hero-container {
+  height: 400px;
+}
+
 .hero {
   height: 400px;
   width: 100%;
@@ -100,9 +104,22 @@ body {
      object-position: top;
 }
 
+.comic-container {
+  background-color: var(--second-color);
+  padding: 80px 0;
+}
+
 .comic-content {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 15px;
+  color: var(--fourth-color);
+}
+
+.comic-card {
+  max-width: 192px;
+  width: 192px;
 }
 
 /*!

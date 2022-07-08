@@ -51,7 +51,7 @@
             </div>
         </div>
     </nav>
-    <div>
+    <div class="hero-container">
         <img class="hero" src="{{asset('img/jumbotron.jpg')}}" alt="Hero image">
     </div>
 </header>
