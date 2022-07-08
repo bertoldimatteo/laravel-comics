@@ -7,8 +7,10 @@
 @section('page-content')
     @foreach ($comics as $comic)
         <div class="comic-card">
-            <img src="{{$comic['thumb']}}" alt="">
-            <p>{{$comic['title']}}</p>
+            <div class="comic-cover">
+                <img src="{{$comic['thumb']}}" alt="">
+            </div>
+            <p class="comic-title">{{$comic['title']}}</p>
         </div>
     @endforeach
 @endsection

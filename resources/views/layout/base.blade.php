@@ -11,10 +11,16 @@
 
    @include('partials.header') 
    <main>
-        <div class="comic-container">
-            <section class="comic-content container-lg">
+        <div class="comic-container container-lg">
+            <div class="title-section">
+                <p>CURRENT SERIES</p>
+            </div>
+            <section class="comic-content">
                 @yield('page-content')
             </section>
+            <div class="btn-more-comics">
+                <button type="button">LOAD MORE</button>
+            </div>
         </div>
    </main>
    @include('partials.footer') 

@@ -2,3 +2,14 @@
     max-width: 192px;
     width: 192px;
 }
+.comic-cover, .comic-cover img {
+    height: 200px;
+}
+.comic-cover img {
+    object-fit: cover;
+    width: 100%;
+    object-position: top;
+}
+.comic-title {
+    margin-top: 20px;
+}

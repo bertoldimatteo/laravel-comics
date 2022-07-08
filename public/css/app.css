@@ -104,9 +104,27 @@ body {
      object-position: top;
 }
 
-.comic-container {
+main {
+  position: relative;
   background-color: var(--second-color);
-  padding: 80px 0;
+}
+
+.title-section {
+  background-color: var(--first-color);
+  color: var(--fourth-color);
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 16.5%;
+  top: -25px;
+  font-weight: bold;
+}
+
+.comic-container {
+  padding: 80px 0 30px 0;
 }
 
 .comic-content {
@@ -117,9 +135,41 @@ body {
   color: var(--fourth-color);
 }
 
+.btn-more-comics {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.btn-more-comics button {
+  width: 180px;
+  height: 40px;
+  border: none;
+  background-color: var(--first-color);
+  color: var(--fourth-color);
+  font-weight: bold;
+}
+
 .comic-card {
   max-width: 192px;
   width: 192px;
+}
+
+.comic-cover,
+.comic-cover img {
+  height: 200px;
+}
+
+.comic-cover img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  -o-object-position: top;
+     object-position: top;
+}
+
+.comic-title {
+  margin-top: 20px;
 }
 
 /*!
