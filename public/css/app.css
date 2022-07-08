@@ -8,7 +8,7 @@
   --fifth-color: #797979;
   --sixth-color: #464646;
   --seventh-color: #959595;
-  --container-medium: 1080px;
+  --container-medium: 1100px;
   --container-large: 1240px;
   --font-xs: .6875rem;
   --font-sm: .8125rem;
@@ -148,6 +148,37 @@ main {
   background-color: var(--first-color);
   color: var(--fourth-color);
   font-weight: bold;
+}
+
+.merchandising-container {
+  background-color: var(--first-color);
+  padding: 40px 0;
+}
+
+.link-section ul,
+.link-section a {
+  list-style-type: none;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.link-section ul {
+  justify-content: space-between;
+}
+
+.link-section img {
+  height: 50px;
+}
+
+.link-section .visa-svg {
+  height: 30px;
+}
+
+.link-section p {
+  color: var(--fourth-color);
+  font-size: var(--font-sm);
+  margin-left: 15px;
 }
 
 .comic-card {

@@ -41,3 +41,30 @@ main {
         font-weight: bold;
     }
 }
+//  MERCHANDISING SECTION
+.merchandising-container {
+    background-color: var(--first-color);
+    padding: 40px 0;
+}
+.link-section {
+    ul, a {
+        list-style-type: none;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+    }
+    ul {
+        justify-content: space-between;
+    }
+    img {
+        height: 50px;
+    }
+    .visa-svg {
+        height: 30px;
+    }
+    p {
+        color: var(--fourth-color);
+        font-size: var(--font-sm);
+        margin-left: 15px;
+    }
+}
