@@ -17,3 +17,6 @@ Route::get('/', function () {
     $comics = config('comics');
     return view('home', compact('comics'));
 });
+Route::get('comics/{id}', function ($id) {
+    return $id;
+});
