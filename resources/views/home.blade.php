@@ -7,10 +7,7 @@
 @section('page-content')
     @foreach ($comics as $comic)
         <div class="comic-card">
-            <div class="comic-cover">
-                <img src="{{$comic['thumb']}}" alt="">
-            </div>
-            <p class="comic-title">{{$comic['title']}}</p>
+            <x-card-product :image="$comic['thumb']" :title="$comic['title']"/>
         </div>
     @endforeach
 @endsection
