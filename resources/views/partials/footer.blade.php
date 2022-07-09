@@ -50,9 +50,20 @@
         </div>
     </div>
     <div class="footer-bottom">
-        <div class="container-lg">
-            <div class="bottom-left-button"></div>
-            <div class="bottom-right-social"></div>
+        <div class="container-lg footer-bottom-container">
+            <div class="bottom-left-button">
+                <button class="btn-sign-in" type="button">SIGN-UP NOW!</button>
+            </div>
+            <div class="bottom-right-social">
+                <p>FOLLOW US</p>
+                <div class="social-img">
+                    <a href="#"><img src="{{asset('img/footer-facebook.png')}}" alt="facebbok-icon"></a>
+                    <a href="#"><img src="{{asset('img/footer-twitter.png')}}" alt="facebbok-icon"></a>
+                    <a href="#"><img src="{{asset('img/footer-youtube.png')}}" alt="facebbok-icon"></a>
+                    <a href="#"><img src="{{asset('img/footer-pinterest.png')}}" alt="facebbok-icon"></a>
+                    <a href="#"><img src="{{asset('img/footer-periscope.png')}}" alt="facebbok-icon"></a>
+                </div>
+            </div>
         </div>
     </div>
 </footer>

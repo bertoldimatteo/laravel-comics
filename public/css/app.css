@@ -246,6 +246,7 @@ main {
   height: 400px;
   display: flex;
   align-items: center;
+  overflow: hidden;
 }
 
 .footer-links a,
@@ -262,7 +263,37 @@ main {
 
 .footer-bottom {
   background-color: var(--third-color);
-  height: 100px;
+  padding: 30px 0;
+}
+
+.footer-bottom-container,
+.bottom-right-social {
+  display: flex;
+  align-items: center;
+}
+
+.footer-bottom-container {
+  justify-content: space-between;
+}
+
+.btn-sign-in {
+  background-color: var(--third-color);
+  border: 1px solid var(--first-color);
+  color: var(--fourth-color);
+  padding: 10px 15px;
+}
+
+.social-img > * {
+  padding: 0 5px;
+}
+
+.bottom-right-social {
+  color: var(--first-color);
+  font-weight: bold;
+}
+
+.bottom-right-social p {
+  padding: 0 10px;
 }
 
 /*!
