@@ -25,4 +25,4 @@ Route::get('comic/{id}', function ($id) {
     $comic = $comics[$id];
 
     return view ('comic', compact('comic'));
-});
+})->name('comic');

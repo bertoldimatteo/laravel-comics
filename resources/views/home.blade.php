@@ -7,7 +7,9 @@
 @section('page-content')
     @foreach ($comics as $comic)
         <div class="comic-card">
-            <x-card-product :image="$comic['thumb']" :title="$comic['title']"/>
+            <a href="{{route('comic', ['id' => $comic['id']])}}">
+                <x-card-product :image="$comic['thumb']" :title="$comic['title']"/>
+            </a>
         </div>
     @endforeach
 @endsection
